@@ -3,15 +3,15 @@
  Sergio Cancinos 13062
  
  Lab6.java
- El programa permite la seleccion de implementación de stack (HashSet, Treeset, LinkedHashSet)
+ El programa permite la seleccion de implementaciï¿½n de stack (HashSet, Treeset, LinkedHashSet)
  
-1. Desarrolladores con experiencia en Java, web y celulares. (Es decir la intersección de los tres conjuntos).
+1. Desarrolladores con experiencia en Java, web y celulares. (Es decir la intersecciï¿½n de los tres conjuntos).
 2. Desarrolladores con experiencia en Java pero que no tengan experiencia en web.
-3. Desarrolladores con experiencia en Web y Celulares (intersección de Web y Celuares), pero que no tengan experiencia 
+3. Desarrolladores con experiencia en Web y Celulares (intersecciï¿½n de Web y Celuares), pero que no tengan experiencia 
 en java.
-4. Desarrolladores con experiencia en Web o Celulares (unión de Web y Celuares), pero que no tengan experiencia en java.
+4. Desarrolladores con experiencia en Web o Celulares (uniï¿½n de Web y Celuares), pero que no tengan experiencia en java.
 5. Indicar SI o NO el conjunto de desarrolladores Java es un subconjunto de Desarrolladores Web.
-6. El conjunto (Java, Web o Celulares) que tenga la cantidad más grande de desarrolladores, y los nombres de esos 
+6. El conjunto (Java, Web o Celulares) que tenga la cantidad mï¿½s grande de desarrolladores, y los nombres de esos 
 desarrolladores.
 7. Del conjunto que tenga la mayor cantidad de desarrolladores, desplegar la lista de los nombres de sus integrantes en 
 orden ascendente.
@@ -32,15 +32,15 @@ Factory_ implemt = new Factory_();
         String name;
         int conjunto,opcion;
         boolean subconjunto;
-		// SE SELECCIONA EL TIPO DE IMPLEMENTACIÓN DE STACK
-        opcion=Integer.parseInt(JOptionPane.showInputDialog("Seleccione la implementación de Stack "
+		// SE SELECCIONA EL TIPO DE IMPLEMENTACIï¿½N DE STACK
+        opcion=Integer.parseInt(JOptionPane.showInputDialog("Seleccione la implementaciï¿½n de Stack "
                 + "\n1)HashSet"
                 + "\n2)TreeSet"
                 + "\n3) LinkedHashSet"));
         while (opcion!=1 && opcion !=2 && opcion!=3)
         {
            JOptionPane.showMessageDialog(null, "Usted no ha ingresado una opcion valida");
-            opcion=Integer.parseInt(JOptionPane.showInputDialog("¿Que tipo de implementación de Stack desea?"
+            opcion=Integer.parseInt(JOptionPane.showInputDialog("ï¿½Que tipo de implementaciï¿½n de Stack desea?"
                 + "\n1)HashSet"
                 + "\n2)TreeSet"
                 + "\n3) LinkedHashSet"));         
@@ -139,6 +139,8 @@ Factory_ implemt = new Factory_();
               System.out.println("Sus nombres son:" + celular);
               resultado6=celular;
           }	
-
+//
+          //
+          
 	}
 }
