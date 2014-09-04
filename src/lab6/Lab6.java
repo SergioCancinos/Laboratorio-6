@@ -139,8 +139,5 @@ Factory_ implemt = new Factory_();
               System.out.println("Sus nombres son:" + celular);
               resultado6=celular;
           }	
-//
-          //
-          
 	}
 }
